@@ -1,4 +1,6 @@
-# Students Controller
+# frozen_string_literal: true
+
+# Students Controller is here
 class StudentsController < ApplicationController
   def index
     @students = Student.all
